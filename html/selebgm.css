@@ -1,0 +1,81 @@
+.a{
+  overflow-y : hidden;
+}
+.c{
+  text-align: center;
+  justify-content: center;
+}
+.c p{
+  font-size: 16px;
+  margin: 10px 0 42px;
+}
+.dr{
+  color: white;
+  font-size: 48px;
+  font-weight: normal;
+}
+.button{
+  display: inline-block;
+  padding: 18px 32px;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  transition: .4s;
+}
+.e1{
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bgm1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+.e2{
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bgm2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+.e3{
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bgm3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+.ese{
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(select.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+.select{
+  display: inline-block;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  padding: 18px 32px;
+  text-decoration: none;
+  transition: .4s;
+}
