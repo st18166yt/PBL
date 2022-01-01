@@ -1,0 +1,37 @@
+<div class="a">
+    <header>
+      <meta charset="utf-8">
+      <title>PBL Program(BGM3)</title>
+      <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
+      <link rel="stylesheet" href="selebgm.css">
+    </header>
+    <div class="e3">
+      <div class="c">
+        <h1 class="dr">
+          <font face="Garamond">BGM 3</font><br><br>
+        </h1>
+        <p>
+        <a class="button" href="#" onclick="start()"><font face="IM Fell DW Pica SC">START</font></a>
+        <a class="button" href="#" onclick="stop()"><font face="IM Fell DW Pica SC">STOP</font></a>
+        </p>
+        <p>
+        <a class="button" href="select.html"><font face="IM Fell DW Pica SC">BACK</font></a>
+        <a class="button" href="top.html"><font face="IM Fell DW Pica SC">TOP</font></a>
+        </p>
+
+        <audio id="sound" preload="auto">
+          <source src="bgm3.mp3" type="audio/mp3">
+        </audio>
+
+        <script type="text/javascript">
+          function start() {
+            document.getElementById("sound").play();
+          }
+          function stop(){
+            document.getElementById("sound").pause();
+          }
+        </script>
+
+      </div>
+    </div>
+  </div>
